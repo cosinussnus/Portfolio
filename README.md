@@ -39,4 +39,10 @@ Un développeur web souhaite créer un portfolio en ligne pour présenter ses co
 - **RGPD** : Protection des données personnelles, consentement pour les cookies.
 - **SEO** : Structure optimisée, balises meta bien renseignées, `sitemap.xml` et `robots.txt` configurés.
 
-[Charte_graphique.pdf](https://github.com/user-attachments/files/18719582/Charte_graphique.pdf)
+# Charte graphique : Présentation
+
+<img width="674" alt="image" src="https://github.com/user-attachments/assets/415b2670-2918-48da-99fd-8a3506ab4343" />
+<img width="673" alt="image" src="https://github.com/user-attachments/assets/44a491c7-6bdc-4c16-9bfe-0cab94606e6b" />
+<img width="676" alt="image" src="https://github.com/user-attachments/assets/ac733940-b533-4991-acdf-59b883af1f42" />
+
+
