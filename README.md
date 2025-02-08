@@ -39,3 +39,4 @@ Un développeur web souhaite créer un portfolio en ligne pour présenter ses co
 - **RGPD** : Protection des données personnelles, consentement pour les cookies.
 - **SEO** : Structure optimisée, balises meta bien renseignées, `sitemap.xml` et `robots.txt` configurés.
 
+[Charte_graphique.pdf](https://github.com/user-attachments/files/18719582/Charte_graphique.pdf)
