@@ -8,20 +8,20 @@
 
 body {
     overflow-x: hidden;
-    background: #222;
-    color: #e5e5e5;
+    background: #04343C;
+    color: #FFF3DF;
 }
 
 body {
     
-    background: #222;
-    color: #e5e5e5;
+    background: #04343C;
+    color: #FFF3DF;
 }
 
 header {
     position: fixed;
-    width: 100%;    
-    background: rgba(34, 34, 34, 0.95);
+    width: 100%;
+    background: rgba(255, 243, 223, 0.95);
     
 }
 
@@ -64,7 +64,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: #e5e5e5;
+    color: #04343C;
     font-weight: 500;
     padding: 0.5rem 1rem;
     border-radius: 20px;
@@ -80,7 +80,7 @@ nav ul li a::after {
     transform: translateX(-50%);
     width: 0;
     height: 2px;
-    background: #007ced;
+    background: #f7b574;
     transition: width 0.3s ease;
 }
 /*Underline effect*/
@@ -89,20 +89,29 @@ nav ul li a:hover::after {
 }
 /*Underline effect*/
 nav ul li a:hover {
-    color: #007ced;
+    color: #f7b574;
 }
 nav ul li{
     list-style: none;
 }
 
-/* Section principale */
-.hero-section {
+.LOGO-section {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 95vh;
+    min-height: 70vh;
     flex-direction: column;
+}
+
+/* Section principale */
+.hero-section {
+    display: flex;
+    justify-content: right;
+    align-items: flex start;
+    text-align: center;
+    min-height: 70vh;
+    flex-direction: row;
 }
 
 .hero-pic {
@@ -174,6 +183,8 @@ h2 {
 footer{
     display: flex;
     justify-content: center;
+    color: #04343C;
+    background-color: #FFF3DF;
 }
 
 /* Responsive */
