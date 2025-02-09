@@ -19,6 +19,7 @@ body {
 }
 
 header {
+    display: flex;
     position: fixed;
     width: 100%;
     background: rgba(255, 243, 223, 0.95);
@@ -37,7 +38,8 @@ nav {
 #logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    justify-content: space-around;
+    gap: 5px;
 }
 
 .logo-text {
@@ -53,7 +55,7 @@ nav {
     list-style: none;
 }
 
-#logo:hover i {
+#logo:hover {
     transform: scale(1.2);
 }
 
@@ -107,19 +109,21 @@ nav ul li{
 /* Section principale */
 .hero-section {
     display: flex;
-    justify-content: right;
-    align-items: flex start;
-    text-align: center;
-    min-height: 70vh;
     flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-around;
+    align-items: flex-start;
+    text-align: justify;
+    min-height: 70vh;
 }
 
 .hero-pic {
+    display: flex;
     width: 300px;
     height: 300px;
-    border-radius: 50%;
+    border-radius: 15%;
     overflow: hidden;
-    border: 15px solid #444;
+    /*border: 15px solid #444;*/
     box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.5);
 }
 
@@ -137,6 +141,7 @@ nav ul li{
 .hero-text {
     max-width: 500px;
     display: flex;
+    justify-content: right;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -147,7 +152,7 @@ h1 {
 }
 
 h2 {
-    color: #007ced;
+    color: #f7b574;
     font-size: 3rem;
 }
 
@@ -166,18 +171,25 @@ h2 {
 }
 
 .btn.active {
-    border-color: #007ced;
+    border-color: #f7b574;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .social a {
     margin: 0 10px;
-    color: #e5e5e5;
+    color: #04343C;
     font-size: 18px;
     transition: 0.5s;
 }
 
 .social a:hover {
-    color: #007ced;
+    color: #f7b574;
     
 }
 footer{
