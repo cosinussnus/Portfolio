@@ -42,19 +42,18 @@ nav {
     gap: 5px;
 }
 
-.logo-text {
+/*.logo-text {
     font-size: 1.8vw;
     font-weight: bold;
     color: #007ced;
-}
+}*/
 
-#logo i {
+/*#logo i {
     font-size: 1.5vw;
     color: #007ced;
     transition: transform 0.3s ease;
     list-style: none;
-}
-
+}*/
 #logo:hover {
     transform: scale(1.2);
 }
@@ -199,6 +198,24 @@ footer{
     justify-content: center;
     color: #04343C;
     background-color: #FFF3DF;
+}
+
+.project {
+
+    padding: 100px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
 
 /* Responsive */
