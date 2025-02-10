@@ -43,7 +43,7 @@ Un développeur web souhaite créer un portfolio en ligne pour présenter ses co
 
 <img width="674" alt="image" src="https://github.com/user-attachments/assets/415b2670-2918-48da-99fd-8a3506ab4343" />
 <img width="673" alt="image" src="https://github.com/user-attachments/assets/44a491c7-6bdc-4c16-9bfe-0cab94606e6b" />
-<img width="676" alt="image" src="https://github.com/user-attachments/assets/ac733940-b533-4991-acdf-59b883af1f42" />
+<img width="489" alt="image" src="https://github.com/user-attachments/assets/5f772e56-d7c8-497f-abb6-03c448619608" />
 
 # USE Cases : UML Diagram
 
