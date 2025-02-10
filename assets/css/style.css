@@ -162,6 +162,11 @@ h2 {
     font-size: 3rem;
 }
 
+h3 {
+    color: #04343C;
+    font-size: 3rem;
+}
+
 .btn-group {
     margin: 45px 0;
 }
@@ -246,7 +251,8 @@ footer{
 }
 
 .project-text{
-    
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     display: flex;
