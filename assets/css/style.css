@@ -166,6 +166,10 @@ h3 {
     color: #04343C;
     font-size: 3rem;
 }
+h4 {
+    color: #04343C;
+    font-size: 14px;
+}
 
 .btn-group {
     margin: 45px 0;
@@ -213,6 +217,7 @@ footer{
 }
 
 .projects-container {
+    margin: auto ;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -268,6 +273,43 @@ footer{
     opacity: 1;
 }
 
+.card{
+
+    margin: 10% auto;
+    width: 50%;
+    height: 50%;
+    background-color: #FFF3DF;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px; /* Ajoutez du padding pour espacer le texte */
+    box-sizing: border-box; /* Inclut le padding dans la largeur totale */
+    
+}
+
+.card-text{
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: space-evenly;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.LOGO-light-article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
 /* Responsive */
 @media (max-width: 768px) {
     nav {
