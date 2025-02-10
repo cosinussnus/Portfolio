@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: Poppins, sans-serif;
+    font-family: "Questrial", serif;
     text-decoration: none;
 }
 
@@ -152,6 +152,12 @@ nav ul li{
     margin-top: 50px;
 }
 
+.questrial-regular {
+    font-family: "Questrial", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
 h1 {
     color: #f7b574;
     font-size: 14px;
@@ -248,7 +254,7 @@ footer{
     height: 100%;
     object-fit: cover;
     transition: 0.5s;
-    position: absolute;
+    
 }
 
 .project img:hover{
@@ -267,6 +273,7 @@ footer{
     opacity: 0;
     position: absolute;
     box-sizing: border-box;
+    padding: 20px;
 }
 
 .project-text:hover{
@@ -330,5 +337,21 @@ footer{
     }
     .logo-text{
         font-size: 4vw;
+    }
+    .card {
+        padding: 15px;
+        margin: 10px 5px;
+    }
+
+    .card-text h3 {
+        font-size: 1.5em;
+    }
+
+    .card-text p {
+        font-size: 1em;
+    }
+
+    .social a {
+        font-size: 1.5em;
     }
 }
