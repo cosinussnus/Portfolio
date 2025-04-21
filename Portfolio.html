@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
+    <title>Portfolio - Titouan Cosson</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,13 +12,12 @@
 </head>
 <body>
     <header>
-        <div id = "logo">
-            <a href="index.html"><img src="assets/img/Logo_titouan/Logo_titouan/Titouan_pin_V2.png" alt="Pin_logo" width="50" height="50"&gt></a>
+        <div id="logo">
+            <a href="index.html"><img src="assets/img/Logo_titouan/Logo_titouan/Titouan_pin_V2.png" alt="Pin_logo" width="50"></a>
         </div>
         <nav>
-            
             <ul>
-                <li><a href="#top">Portfolio</a></li>
+                <li><a href="#top" class="active">Portfolio</a></li>
                 <li><a href="assets/pdf/CV_Cosson_Titouan.pdf" target="_blank">Resume</a></li>                
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -29,46 +28,62 @@
         </div>
     </header>
     <main>
-        <section class="projects-container">
-            <article class="project">
-                <!--h2>Projet 1</h2>
-                <p>Création d'un rapport d'implémentation de database pour l'entreprise CH-Aero</p-->
-                <img src="assets/img/Projects/Project_1.png" alt="Image du projet">
-                <!--div class="project img"><img src="assets/img/Projects/Project_1.png" alt="Image du projet"></div-->
-                <div class="project-text">
-                    <h3>Projet 1</h3>
-                    <p>blabla</p>
-                </div>
-            </article>
-            <article class="project">
-                <!--h2>Projet 2</h2>
-                <p>blabla</p-->
-                <img src="assets/img/Projects/Project_2.png" alt="Image du projet">
-            </article>
-            <article class="project">
-                <!--h2>Projet 3</h2>
-                <p>blabla</p-->
-                <img src="assets/img/Projects/Project_3.jpg" alt="Image du projet">
-            </article>
+        <section class="page-title">
+            <h2>Mes Projets</h2>
         </section>
-        <!--section class="Portfolio">
-
-            <section class="hero-pic">
-                <img src="assets/img/titouan's picture/IMG_9632.jpg" alt="titouan's_picture"width="500" height="250"&gt>
-            </section>
-            <article class="hero-text">
-                <h2>Titouan Cosson</h2>
-                <h1>Salut ! Je m'appelle Titouan, et j'étudie à l'école d'ingénieur ESIEA à Laval.</h1>
-                <h1>Je suis passionné par les nouvelles technologies et les perspectives d'avenir qu'elles procurent.
-                    J'aimerais me tourner vers la cybersécurité, mais suis aussi ouvert à apprendre sur tous les sujets comme l'IA, Big Data/Smart Data et les sujets d'informatique en tout genre.
-                </h1>
-                <--div class="btn-group">
-                    <a href="#" class="btn active">Download CV</a>
-                    <a href="#" class="btn">Contact</a>
+        
+        <section class="projects-container">
+            <!-- Projet 1 -->
+            <article class="project">
+                <img src="assets/img/Projects/Project_1.png" alt="Image du projet 1">
+                <div class="project-text">
+                    <h3>Base de données</h3>
+                    <p>Création d'un rapport d'implémentation de database pour l'entreprise CH-Aero. Optimisation des requêtes SQL et conception de schémas.</p>
+                    <a href="https://projet1.example.com" class="project-link" target="_blank">Voir le projet</a>
                 </div>
-                
             </article>
-        </section-->
+            
+            <!-- Projet 2 -->
+            <article class="project">
+                <img src="assets/img/Projects/Project_2.png" alt="Image du projet 2">
+                <div class="project-text">
+                    <h3>Application Web</h3>
+                    <p>Développement d'une application web responsive en utilisant les technologies modernes comme React et Node.js.</p>
+                    <a href="https://projet2.example.com" class="project-link" target="_blank">Voir le projet</a>
+                </div>
+            </article>
+            
+            <!-- Projet 3 -->
+            <article class="project">
+                <img src="assets/img/Projects/Project_3.jpg" alt="Image du projet 3">
+                <div class="project-text">
+                    <h3>Cybersécurité</h3>
+                    <p>Mise en place d'un système de détection d'intrusion et analyse des vulnérabilités pour un réseau local.</p>
+                    <a href="https://projet3.example.com" class="project-link" target="_blank">Voir le projet</a>
+                </div>
+            </article>
+            
+            <!-- Projet 4 (exemple pour montrer comment ajouter facilement) -->
+            <article class="project">
+                <img src="assets/img/Projects/Project_1.png" alt="Image du projet 4">
+                <div class="project-text">
+                    <h3>Intelligence Artificielle</h3>
+                    <p>Implémentation d'un modèle de Machine Learning pour la classification d'images et l'analyse de données.</p>
+                    <a href="https://projet4.example.com" class="project-link" target="_blank">Voir le projet</a>
+                </div>
+            </article>
+            
+            <!-- Pour ajouter un nouveau projet, copier simplement le bloc article ci-dessous
+            <article class="project">
+                <img src="assets/img/Projects/votre_image.jpg" alt="Description de l'image">
+                <div class="project-text">
+                    <h3>Titre du projet</h3>
+                    <p>Description détaillée du projet que vous avez réalisé.</p>
+                    <a href="https://votreprojet.example.com" class="project-link" target="_blank">Voir le projet</a>
+                </div>
+            </article>
+            -->
+        </section>
     </main>
     <footer>
         <p>&copy; 2025 Titouan Cosson. Tous droits réservés.</p>
